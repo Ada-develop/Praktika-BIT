@@ -1,0 +1,178 @@
+:root {
+
+  --main-margin: 5%;
+
+}
+
+/* NAV */
+
+
+.container{
+
+    margin: 2.5% var(--main-margin) -1% var(--main-margin);
+
+}
+
+nav{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: var(--main-margin);
+
+}
+
+
+/* HEADERS */
+
+
+.mid-section h1, .duk-section h1, .subscription-section h1, footer h1{
+
+    text-align: center;
+    margin: var(--main-margin) 0;
+
+  }
+
+
+/* HERO */
+
+
+.hero{ 
+
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    background-image: url(../IMG/jeans-bg.webp);
+    background-size: cover;
+    border-radius: 5%;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.hero::before{
+
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.63);
+
+  }
+
+.hero  h1 , .header-btns, .hero p{
+
+    position: relative;
+    color: black;  
+    font-size: 28px;
+    line-height: 0.9;
+    text-align: center;
+
+  }
+
+
+  /* MID SECTION  ITEMS */
+
+
+  .mid-section{
+
+    padding: 5% 0;
+    margin-top: var(--main-margin);
+
+  }
+
+  .mid-items{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .mid-items figcaption{
+
+    text-align: center;
+
+  }
+
+  .mid-items img{
+
+    border-radius: 15%;
+
+  }
+
+
+  /* DUK */
+
+
+  .duk-section .row{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .duk-first-col, .duk-second-col{
+
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+
+  }
+
+  .duk-btns{
+
+    text-align: center;
+    margin-bottom: var(--main-margin);
+
+  }
+
+
+  /* SUBSCRIPTION */
+
+
+  .subscription-section{
+
+    text-align: center;
+
+  }
+
+  .subscription-section form{
+
+    margin-bottom: var(--main-margin);
+
+  }
+
+
+/* CONTACTS */
+
+
+footer .row{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+/* FOOTER */
+
+
+.copyright{
+
+    text-align: center;
+    padding-bottom: 2%;
+
+}
+
+
